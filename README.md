@@ -61,3 +61,23 @@ git status
 git pull
 git status
 ```
+
+## Performing a Merge
+To simulate concurrent edits I will modify the __index.html__ on the GitHub site and in the local repo and then attempt a merge.
+
+```
+nano index.html
+git add .
+git commit -m "Added some body text"
+
+git push origin master
+```
+
+This will result in a error with the push rejected because of remote changes. I can then do `git pull` but this will give me a merge conflict because there are two seperate edits - I can see what is going on in the file with `cat index.html` and `git status` also shows me there are unmerged paths.
+
+I now edit the file with `nano index.html` to manually merge the files and can then do the commit and push:
+```
+git add index.html
+git commit -m "Merged index.html edits"
+git push origin master
+```

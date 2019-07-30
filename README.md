@@ -25,3 +25,26 @@ git config --global user.email "hfoulds@gmail.com"
 ```
 
 A special folder is also set up to store all the work I will do from this WSL with `mkdir /mnt/c/debian`.
+
+### Perform the Clone
+```
+git clone https://github.com/JohnnyFoulds/firstrepo.git
+cd firstrepo/
+git status
+```
+
+### Add some files to test
+```
+mkdir assets
+touch assets/favicon.ico
+git status
+
+git add .
+git status
+
+git commit -m "Added assets folder"
+git status
+
+git push origin master
+git status
+```

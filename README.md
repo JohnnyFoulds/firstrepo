@@ -48,3 +48,16 @@ git status
 git push origin master
 git status
 ```
+
+## Pull updates
+This work I will do back in my original WSL where I created the repository to get the updates and new files.
+
+First I confirm that the README.md file is the one without all the updates with `cat README.md`.  When working from home I have to remove the proxy settings with `git config --global --unset http.proxy` before I am finally ready to get the updates from GitHub.
+
+```
+git fetch
+git status
+
+git pull
+git status
+```

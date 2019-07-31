@@ -54,6 +54,20 @@ git remote add origin https://github.com/JohnnyFoulds/firstrepo.git
 git remote -v
 ```
 
+Because I am working from a company latop I will need to configure a proxy server.
+> What I have noticed is that even after this I will get an authentication error when trying to do a fetch or push, but if I open www.google.com in IE and Chrome it seems to just work.
+```
+git config --global http.proxy "zactn13003p1.vodacom.corp:8080"
+git config --global http.sslverify false
+```
+
+The '`http.sslverify' option is used because the proxy server uses SSL certificates only valid within the company and I did not want to go into the complication of trying to add these.
+
+Finally I am able to do the push:
+```
+git push -u origin master
+```
+
 ## Cloning a repository
 To clone the same repository seperate from what I have been working on I have set up a new Debian Windows Subsystem for Linux (WSL) instance by installing it from the Microsoft Store. I am also doing this connected directy to the internet and not though the work proxy.
 

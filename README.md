@@ -173,3 +173,5 @@ I can now push my changes to a new branch on GitHub
 ```
 git push -u origin readme-branch
 ```
+
+The steps after this is to switch to GitHub, create a pull request, review it and then do the merge when you are happy with the changes.

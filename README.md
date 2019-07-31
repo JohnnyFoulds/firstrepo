@@ -61,11 +61,20 @@ git config --global http.proxy "zactn13003p1.vodacom.corp:8080"
 git config --global http.sslverify false
 ```
 
-The '`http.sslverify' option is used because the proxy server uses SSL certificates only valid within the company and I did not want to go into the complication of trying to add these.
+The `http.sslverify` option is used because the proxy server uses SSL certificates only valid within the company and I did not want to go into the complication of trying to add these.
 
 Finally I am able to do the push:
 ```
 git push -u origin master
+```
+
+## SSH Key
+The following commands can be executed to create a SSH key that can be added to the GitHub web ui so that ssh can be used to connect instead of https. The very laste command is used to test if the configuration was successfull.
+```
+ssh-keygen -t rsa -b 4096 -C "hfoulds@gmail.com"
+cat /home/shambi/.ssh/id_rsa.pub
+# add ssh key in github settings
+ssh -T git@github.com
 ```
 
 ## Cloning a repository

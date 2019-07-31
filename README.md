@@ -152,3 +152,24 @@ git add index.html
 git commit -m "Merged index.html edits"
 git push origin master
 ```
+
+## Branching
+To create the new branch you can use `git branch` but `git checkout` creates the branch and automatically switch you to it.
+
+```
+git checkout -b "readme-branch"
+git status
+nano README.md
+```
+
+As usual next we need to add the files files that were modified and perform the commit.
+
+```
+git add .
+git commit -m "Added branch instructions"
+```
+
+I can now push my changes to a new branch on GitHub
+```
+git push -u origin readme-branch
+```

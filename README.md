@@ -6,6 +6,54 @@ I have specifically followed the [GitHub Fundamentals](https://app.pluralsight.c
 
 For help with the syntax of the README.md file I referred to [Basic writing and formatting syntax](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
+## Local Repository
+The following steps are to do the initial setup of git:
+```
+git config --global user.name "Johnny Foulds"
+git config --global user.email "hfoulds@gmail.com"
+
+git config --edit --global
+```
+
+The last command opens the git config file in the text editor allowing you to see all the current settings.
+
+### Creating the repository
+These steps initializes the repository and also creates the folder you have chosen.
+```
+git init DemoApp
+cd DemoApp/
+git status
+```
+
+### Initial Commit
+Once the repository exist you are now ready the fist file and perform a commit.
+```
+nano README.md
+git status
+
+git add README.md
+git status
+
+git commit -m "Initial commit"
+```
+
+### Adding Additional Files
+Next some additional files are added and they are added to the commit with `git add .`.
+```
+touch index.html instructions.txt intro.txt
+git status 
+git add .
+git commit -m "added index file and other files"
+```
+
+## Pushing to GitHub
+The first step is to add the location of the remote repository as created though the GitHub web interface.
+```
+git remote -v
+git remote add origin https://github.com/JohnnyFoulds/firstrepo.git
+git remote -v
+```
+
 ## Cloning a repository
 To clone the same repository seperate from what I have been working on I have set up a new Debian Windows Subsystem for Linux (WSL) instance by installing it from the Microsoft Store. I am also doing this connected directy to the internet and not though the work proxy.
 

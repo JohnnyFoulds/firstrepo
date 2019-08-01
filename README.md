@@ -69,7 +69,7 @@ git push -u origin master
 ```
 
 ## SSH Key
-The following commands can be executed to create a SSH key that can be added to the GitHub web ui so that ssh can be used to connect instead of https. The very laste command is used to test if the configuration was successfull.
+The following commands can be executed to create a SSH key that can be added to the GitHub web ui so that ssh can be used to connect instead of https. The very laste command is used to test if the configuration was successful.
 ```
 ssh-keygen -t rsa -b 4096 -C "hfoulds@gmail.com"
 cat /home/shambi/.ssh/id_rsa.pub
@@ -78,7 +78,7 @@ ssh -T git@github.com
 ```
 
 ## Cloning a repository
-To clone the same repository seperate from what I have been working on I have set up a new Debian Windows Subsystem for Linux (WSL) instance by installing it from the Microsoft Store. I am also doing this connected directy to the internet and not though the work proxy.
+To clone the same repository separate from what I have been working on I have set up a new Debian Windows Subsystem for Linux (WSL) instance by installing it from the Microsoft Store. I am also doing this connected directly to the internet and not though the work proxy.
 
 ### Setting up Git
 The first thing is to update the Debian sources and do an upgrade:

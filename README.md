@@ -175,3 +175,39 @@ git push -u origin readme-branch
 ```
 
 The steps after this is to switch to GitHub, create a pull request, review it and then do the merge when you are happy with the changes.
+
+## Tagging
+A useful command is `git log` to get a history of the repository while `git tag` shows you existing tags.
+
+To create a lightweight tag do the command below. Lightweight tags will show with their commit message in GitHub, while annotated tags will use the annotation message.
+```
+git tag stable master
+git tag
+```
+
+Instead of doing the full verbose log the following command can be used to get an overview:
+```
+git log --oneline --graph --decorate --all
+```
+
+You also have the option to tag an existing commit. In the following example an annotated commit is created:
+```
+git tag -a v0.1 -m "0.1 release" 16b1dc5
+git tag
+git tag -a v0.2 -m "0.2 release" 943268f
+git tag
+```
+
+To push the tags to GitHub you need the `--tags` parameter. The tags will then show up on GitHub as releases:
+```
+git push --tags
+```
+
+If you delete a tag in GitHub it is not deleted locally after a pull, to delete a tag locally  you need to issue the following command:
+```
+git tag -d "stable"
+git push --tags
+```
+
+If you do it from the command line only even after the push it is still in GitHub and have to be delete there too.
+

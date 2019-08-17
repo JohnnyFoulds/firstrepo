@@ -693,6 +693,78 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 18:54:23.755",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1566051926941_766931956",
+      "id": "20190817-142526_1963372445",
+      "dateCreated": "2019-08-17 14:25:26.941",
+      "dateStarted": "2019-08-17 18:52:27.055",
+      "dateFinished": "2019-08-17 18:52:34.633",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "pip install seaborn\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 18:52:03.194",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Collecting seaborn\n  Downloading https://files.pythonhosted.org/packages/7a/bf/04cfcfc9616cedd4b5dd24dfc40395965ea9f50c1db0d3f3e52b050f74a5/seaborn-0.9.0.tar.gz (198kB)\nRequirement already satisfied (use --upgrade to upgrade): numpy\u003e\u003d1.9.3 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): scipy\u003e\u003d0.14.0 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): pandas\u003e\u003d0.15.2 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): matplotlib\u003e\u003d1.4.3 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): python-dateutil in /opt/conda/lib/python2.7/site-packages (from pandas\u003e\u003d0.15.2-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): pytz\u003e\u003d2011k in /opt/conda/lib/python2.7/site-packages (from pandas\u003e\u003d0.15.2-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): six\u003e\u003d1.10 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): backports.functools_lru_cache in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): subprocess32 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): cycler\u003e\u003d0.10 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): pyparsing!\u003d2.0.4,!\u003d2.1.2,!\u003d2.1.6,\u003e\u003d2.0.1 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nBuilding wheels for collected packages: seaborn\n  Running setup.py bdist_wheel for seaborn: started\n  Running setup.py bdist_wheel for seaborn: finished with status \u0027done\u0027\n  Stored in directory: /root/.cache/pip/wheels/fc/1c/74/c8f80a532c06a789599b8659b117ec7d7574cac4a06f7dabfe\nSuccessfully built seaborn\nInstalling collected packages: seaborn\nSuccessfully installed seaborn-0.9.0\nYou are using pip version 8.1.2, however version 19.2.2 is available.\nYou should consider upgrading via the \u0027pip install --upgrade pip\u0027 command.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566067641945_-204178416",
+      "id": "20190817-184721_1264127877",
+      "dateCreated": "2019-08-17 18:47:21.945",
+      "dateStarted": "2019-08-17 18:52:03.329",
+      "dateFinished": "2019-08-17 18:52:14.136",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "user": "anonymous",
       "config": {},
       "settings": {
@@ -700,9 +772,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1566051926941_766931956",
-      "id": "20190817-142526_1963372445",
-      "dateCreated": "2019-08-17 14:25:26.941",
+      "jobName": "paragraph_1566067865422_78942610",
+      "id": "20190817-185105_129236861",
+      "dateCreated": "2019-08-17 18:51:05.423",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -713,7 +785,8 @@
   "noteForms": {},
   "angularObjects": {
     "md:shared_process": [],
-    "sh:shared_process": []
+    "sh:shared_process": [],
+    "spark:shared_process": []
   },
   "config": {
     "isZeppelinNotebookCronEnable": false

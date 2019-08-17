@@ -1,0 +1,722 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# Show Data Files",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:21:09.707",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eShow Data Files\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566048050855_-1385295807",
+      "id": "20190817-132050_298132701",
+      "dateCreated": "2019-08-17 13:20:50.856",
+      "dateStarted": "2019-08-17 13:21:09.722",
+      "dateFinished": "2019-08-17 13:21:17.370",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# show the data files\nls -la /data",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:19:30.805",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "total 9\ndrwxrwxrwx  1 1000 staff    0 Aug 17 13:01 .\ndrwxr-xr-x 79 root root  4096 Aug 17 13:17 ..\n-rwxrwxrwx  1 1000 staff 1323 May  4  2015 array.c\n-rwxrwxrwx  1 1000 staff  264 May  4  2015 dukeofyork.txt\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566047441572_741004979",
+      "id": "20190817-131041_1992716423",
+      "dateCreated": "2019-08-17 13:10:41.573",
+      "dateStarted": "2019-08-17 13:19:30.929",
+      "dateFinished": "2019-08-17 13:19:31.075",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# show the comntents the text file to work with\ncat /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:20:15.323",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\nAnd he marched them down again\nAnd when they were up they were up\nAnd when they were down they were down\nAnd when they were only half-way up\nThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566047664344_-1554427725",
+      "id": "20190817-131424_1887436501",
+      "dateCreated": "2019-08-17 13:14:24.345",
+      "dateStarted": "2019-08-17 13:20:15.452",
+      "dateFinished": "2019-08-17 13:20:15.605",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n# String Replacement\nThis example replaces a word on every line of a file with another",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:42:01.818",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eString Replacement\u003c/h1\u003e\n\u003cp\u003eThis example replaces a word on every line of a file with another\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566048015324_-1660407731",
+      "id": "20190817-132015_708779515",
+      "dateCreated": "2019-08-17 13:20:15.324",
+      "dateStarted": "2019-08-17 13:42:01.827",
+      "dateFinished": "2019-08-17 13:42:01.920",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# replace \u0027they\u0027 with \u0027THEY\u0027 - sed is case sensitive\nsed \u0027s/they/THEY/\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:26:58.279",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\nAnd he marched them down again\nAnd when THEY were up they were up\nAnd when THEY were down they were down\nAnd when THEY were only half-way up\nThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566048116065_-701913058",
+      "id": "20190817-132156_774643487",
+      "dateCreated": "2019-08-17 13:21:56.065",
+      "dateStarted": "2019-08-17 13:26:58.432",
+      "dateFinished": "2019-08-17 13:26:58.560",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# this example replaces text in multiple files\nsed \u0027s/the/THE/\u0027 /data/dukeofyork.txt /data/array.c",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:28:00.061",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched THEm up to the top of the hill\nAnd he marched THEm down again\nAnd when THEy were up they were up\nAnd when THEy were down they were down\nAnd when THEy were only half-way up\nThey were neiTHEr up nor down\n/* array.c -- read, reverse, and write an array of integers */\n\n#include \u003cstdio.h\u003e\n\n#define MAX 10\n\nvoid intSwap(int *x, int *y);\nint getArray(int a[], int max, int terminator);\nvoid printArray(int a[], int n);\nvoid reverseArray(int a[], int n);\n\nint main(void)\n{\n\tint x[MAX];\n\tint howMany;\n\n\thowMany \u003d getArray(x, MAX, -1);\n\tprintf(\"Read THE following array:\\n\");\n\tprintArray(x, howMany);\n\treverseArray(x, howMany);\n\tprintf(\"After being reversed:\\n\");\n\tprintArray(x, howMany);\n}\n\n/* swap THE contents of x and y */\nvoid intSwap(int *x, int *y)\n{\n\tint tmp \u003d *x;\n\t*x \u003d *y;\n\t*y \u003d tmp;\n}\n\n/* print THE first n elements in the array a */\nvoid printArray(int a[], int n)\n{\n\tint i;\n\n\tfor ( i\u003d0; i\u003cn; i++ ) {\n\t\tprintf(\"\\t%d\\n\", a[i]);\n\t}\n}\n\n/* get up to max integers from THE user and store them in a; \n * terminator marks end of input */\nint getArray(int a[], int max, int terminator)\n{\n\tint n \u003d 0;\n\tint tmp;\n\n\tdo {\n\t\tprintf(\"Enter integer [%d to terminate] : \", terminator);\n\t\tscanf(\"%d\", \u0026tmp);\n\t\tif ( tmp\u003d\u003dterminator ) {\n\t\t\tbreak;\n\t\t} \n\t\tif ( n\u003e\u003dmax ) {\n\t\t\tprintf(\"Sorry, array is full\\n\");\n\t\t\treturn n;\n\t\t} else { \n\t\t\ta[n++] \u003d tmp;\n\t\t}\n\t} while ( 1 );\n\treturn n;\n}\n\n/* reverse THE order of the first n elements of a */\nvoid reverseArray(int a[], int n)\n{\n\tint i;\n\n\tfor ( i\u003d0; i\u003cn/2; i++ ) {\n\t\tintSwap(\u0026a[i], \u0026a[n-i-1]);\n\t}\n}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566048192010_-731861795",
+      "id": "20190817-132312_196972145",
+      "dateCreated": "2019-08-17 13:23:12.010",
+      "dateStarted": "2019-08-17 13:28:00.196",
+      "dateFinished": "2019-08-17 13:28:00.384",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# using a single quote in the replacement\nsed \"s/were/weren\\\u0027t/\" /data/dukeofyork.txt ",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:32:35.984",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\nAnd he marched them down again\nAnd when they weren\u0027t up they were up\nAnd when they weren\u0027t down they were down\nAnd when they weren\u0027t only half-way up\nThey weren\u0027t neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566048461541_565722647",
+      "id": "20190817-132741_1665369608",
+      "dateCreated": "2019-08-17 13:27:41.542",
+      "dateStarted": "2019-08-17 13:32:36.122",
+      "dateFinished": "2019-08-17 13:32:36.214",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# in previous examples only the first occurence where replaced, to replace every occurance on the line use the g modifier\nsed \u0027s/the/THE/g\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:35:10.523",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched THEm up to THE top of THE hill\nAnd he marched THEm down again\nAnd when THEy were up THEy were up\nAnd when THEy were down THEy were down\nAnd when THEy were only half-way up\nThey were neiTHEr up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566048675457_-270600471",
+      "id": "20190817-133115_93079725",
+      "dateCreated": "2019-08-17 13:31:15.457",
+      "dateStarted": "2019-08-17 13:35:10.644",
+      "dateFinished": "2019-08-17 13:35:10.704",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# instead of a global replacement you can also specify which occurence to replace, for example only the 2nd\nsed \u0027s/they/THEY/2\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:38:21.502",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\nAnd he marched them down again\nAnd when they were up THEY were up\nAnd when they were down THEY were down\nAnd when they were only half-way up\nThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566048900019_813828896",
+      "id": "20190817-133500_156385168",
+      "dateCreated": "2019-08-17 13:35:00.019",
+      "dateStarted": "2019-08-17 13:38:21.714",
+      "dateFinished": "2019-08-17 13:38:21.828",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# you can also use any other seperator character as long as they are the same if you need to use a / in the replacement\nsed \u0027s;half;1/2;g\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:40:36.450",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\nAnd he marched them down again\nAnd when they were up they were up\nAnd when they were down they were down\nAnd when they were only 1/2-way up\nThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566049085998_-81053335",
+      "id": "20190817-133805_2032702056",
+      "dateCreated": "2019-08-17 13:38:05.998",
+      "dateStarted": "2019-08-17 13:40:36.609",
+      "dateFinished": "2019-08-17 13:40:36.666",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n# Regular Expressions",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 13:42:10.957",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eRegular Expressions\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566049203896_-1524612817",
+      "id": "20190817-134003_1241993951",
+      "dateCreated": "2019-08-17 13:40:03.896",
+      "dateStarted": "2019-08-17 13:42:10.957",
+      "dateFinished": "2019-08-17 13:42:11.011",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "#use of the . single character\nsed \u0027s/he./hex/2\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 14:04:29.510",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched thex up to the top of the hill\nAnd he marchex them down again\nAnd when thex were up they were up\nAnd when thex were down they were down\nAnd when thex were only half-way up\nThey were neithex up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566049303281_2016555431",
+      "id": "20190817-134143_38867440",
+      "dateCreated": "2019-08-17 13:41:43.281",
+      "dateStarted": "2019-08-17 14:04:29.680",
+      "dateFinished": "2019-08-17 14:04:29.759",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# ^ and $ match lines begin and end\nsed \u0027s/down$/DOWN/g\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 14:08:47.976",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\nAnd he marched them down again\nAnd when they were up they were up\nAnd when they were down they were DOWN\nAnd when they were only half-way up\nThey were neither up nor DOWN\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566050669510_-583445414",
+      "id": "20190817-140429_559059861",
+      "dateCreated": "2019-08-17 14:04:29.510",
+      "dateStarted": "2019-08-17 14:08:48.107",
+      "dateFinished": "2019-08-17 14:08:48.170",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# character sets - you can also use ranges like [a-z] or [0-9], or characters not in the set [^a-z]\nsed \u0027s/[Tt]he[my]/YOU/g\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 14:14:22.161",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched YOU up to the top of the hill\nAnd he marched YOU down again\nAnd when YOU were up YOU were up\nAnd when YOU were down YOU were down\nAnd when YOU were only half-way up\nYOU were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566050915633_419109990",
+      "id": "20190817-140835_1518181878",
+      "dateCreated": "2019-08-17 14:08:35.633",
+      "dateStarted": "2019-08-17 14:14:22.308",
+      "dateFinished": "2019-08-17 14:14:22.418",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# * marches zero or more occurences\nsed \u0027s/t.*/STAR/g\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 14:16:06.482",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had STAR\nHe marched STAR\nAnd he marched STAR\nAnd when STAR\nAnd when STAR\nAnd when STAR\nThey were neiSTAR\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566051031192_-1664548675",
+      "id": "20190817-141031_385818124",
+      "dateCreated": "2019-08-17 14:10:31.193",
+      "dateStarted": "2019-08-17 14:16:06.625",
+      "dateFinished": "2019-08-17 14:16:06.681",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n# Using \u0026 and \\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 14:20:13.006",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eUsing \u0026amp; and \\n\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566051366482_-794112994",
+      "id": "20190817-141606_1062899524",
+      "dateCreated": "2019-08-17 14:16:06.482",
+      "dateStarted": "2019-08-17 14:20:13.017",
+      "dateFinished": "2019-08-17 14:20:13.085",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# \u0026 is the text that was matched\nsed \u0027s/th[^ ]*/(\u0026)/g\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 14:23:00.457",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten (thousand) men\nHe marched (them) up to (the) top of (the) hill\nAnd he marched (them) down again\nAnd when (they) were up (they) were up\nAnd when (they) were down (they) were down\nAnd when (they) were only half-way up\nThey were nei(ther) up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566051612705_-93986755",
+      "id": "20190817-142012_1214112992",
+      "dateCreated": "2019-08-17 14:20:12.705",
+      "dateStarted": "2019-08-17 14:23:00.568",
+      "dateFinished": "2019-08-17 14:23:00.636",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# matches string so they can be used as paramaters\nsed \u0027s;\\([Tt]hey\\) \\(were\\);\\2 \\1;g\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-17 14:27:13.056",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\nAnd he marched them down again\nAnd when were they up were they up\nAnd when were they down were they down\nAnd when were they only half-way up\nwere They neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566051686321_-279650905",
+      "id": "20190817-142126_197701874",
+      "dateCreated": "2019-08-17 14:21:26.321",
+      "dateStarted": "2019-08-17 14:27:13.193",
+      "dateFinished": "2019-08-17 14:27:13.260",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1566051926941_766931956",
+      "id": "20190817-142526_1963372445",
+      "dateCreated": "2019-08-17 14:25:26.941",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "sed Examples",
+  "id": "sed",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "md:shared_process": [],
+    "sh:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}

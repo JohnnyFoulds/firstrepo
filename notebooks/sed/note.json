@@ -693,21 +693,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "",
+      "text": "%md\n# Command-Line Flags",
       "user": "anonymous",
-      "dateUpdated": "2019-08-17 18:54:23.755",
+      "dateUpdated": "2019-08-18 09:55:33.202",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
         "enabled": true,
         "results": {},
         "editorSetting": {
-          "language": "sh",
-          "editOnDblClick": false,
-          "completionSupport": false,
-          "completionKey": "TAB"
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
         },
-        "editorMode": "ace/mode/sh"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -715,21 +716,26 @@
       },
       "results": {
         "code": "SUCCESS",
-        "msg": []
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eCommand-Line Flags\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
       },
       "apps": [],
-      "jobName": "paragraph_1566051926941_766931956",
-      "id": "20190817-142526_1963372445",
-      "dateCreated": "2019-08-17 14:25:26.941",
-      "dateStarted": "2019-08-17 18:52:27.055",
-      "dateFinished": "2019-08-17 18:52:34.633",
+      "jobName": "paragraph_1566067865422_78942610",
+      "id": "20190817-185105_129236861",
+      "dateCreated": "2019-08-17 18:51:05.423",
+      "dateStarted": "2019-08-18 09:55:33.225",
+      "dateFinished": "2019-08-18 09:55:33.268",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "pip install seaborn\n",
+      "text": "# use the -e flag to use multiple replace expressions\nsed -e \u0027s/up/UP/\u0027 -e \u0027s/down/DOWN/\u0027 /data/dukeofyork.txt",
       "user": "anonymous",
-      "dateUpdated": "2019-08-17 18:52:03.194",
+      "dateUpdated": "2019-08-18 09:56:36.357",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -751,30 +757,349 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "Collecting seaborn\n  Downloading https://files.pythonhosted.org/packages/7a/bf/04cfcfc9616cedd4b5dd24dfc40395965ea9f50c1db0d3f3e52b050f74a5/seaborn-0.9.0.tar.gz (198kB)\nRequirement already satisfied (use --upgrade to upgrade): numpy\u003e\u003d1.9.3 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): scipy\u003e\u003d0.14.0 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): pandas\u003e\u003d0.15.2 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): matplotlib\u003e\u003d1.4.3 in /opt/conda/lib/python2.7/site-packages (from seaborn)\nRequirement already satisfied (use --upgrade to upgrade): python-dateutil in /opt/conda/lib/python2.7/site-packages (from pandas\u003e\u003d0.15.2-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): pytz\u003e\u003d2011k in /opt/conda/lib/python2.7/site-packages (from pandas\u003e\u003d0.15.2-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): six\u003e\u003d1.10 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): backports.functools_lru_cache in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): subprocess32 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): cycler\u003e\u003d0.10 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nRequirement already satisfied (use --upgrade to upgrade): pyparsing!\u003d2.0.4,!\u003d2.1.2,!\u003d2.1.6,\u003e\u003d2.0.1 in /opt/conda/lib/python2.7/site-packages (from matplotlib\u003e\u003d1.4.3-\u003eseaborn)\nBuilding wheels for collected packages: seaborn\n  Running setup.py bdist_wheel for seaborn: started\n  Running setup.py bdist_wheel for seaborn: finished with status \u0027done\u0027\n  Stored in directory: /root/.cache/pip/wheels/fc/1c/74/c8f80a532c06a789599b8659b117ec7d7574cac4a06f7dabfe\nSuccessfully built seaborn\nInstalling collected packages: seaborn\nSuccessfully installed seaborn-0.9.0\nYou are using pip version 8.1.2, however version 19.2.2 is available.\nYou should consider upgrading via the \u0027pip install --upgrade pip\u0027 command.\n"
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them UP to the top of the hill\nAnd he marched them DOWN again\nAnd when they were UP they were up\nAnd when they were DOWN they were down\nAnd when they were only half-way UP\nThey were neither UP nor DOWN\n"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1566067641945_-204178416",
-      "id": "20190817-184721_1264127877",
-      "dateCreated": "2019-08-17 18:47:21.945",
-      "dateStarted": "2019-08-17 18:52:03.329",
-      "dateFinished": "2019-08-17 18:52:14.136",
+      "jobName": "paragraph_1566122132964_-1178213195",
+      "id": "20190818-095532_1339530114",
+      "dateCreated": "2019-08-18 09:55:32.964",
+      "dateStarted": "2019-08-18 09:56:36.461",
+      "dateFinished": "2019-08-18 09:56:36.515",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "# example replace \"ten thousand men\" to \"one woman\"\nsed -e \u0027s/ten.*men/one woman/\u0027 -e \u0027s/them/her/g\u0027 -e \u0027s/they/she/g\u0027 -e \u0027s/They/She/g\u0027 /data/dukeofyork.txt",
       "user": "anonymous",
-      "config": {},
+      "dateUpdated": "2019-08-18 10:04:49.333",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had one woman\nHe marched her up to the top of the hill\nAnd he marched her down again\nAnd when she were up she were up\nAnd when she were down she were down\nAnd when she were only half-way up\nShe were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566122178021_1202838496",
+      "id": "20190818-095618_228655507",
+      "dateCreated": "2019-08-18 09:56:18.021",
+      "dateStarted": "2019-08-18 10:04:49.420",
+      "dateFinished": "2019-08-18 10:04:49.463",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n# More sed Commands",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:07:02.749",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eMore sed Commands\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566122511193_-678329454",
+      "id": "20190818-100151_722067720",
+      "dateCreated": "2019-08-18 10:01:51.193",
+      "dateStarted": "2019-08-18 10:07:02.768",
+      "dateFinished": "2019-08-18 10:07:02.846",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# do replacements in only line 3\nsed \u00273s/up/UP/\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:07:37.709",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them UP to the top of the hill\nAnd he marched them down again\nAnd when they were up they were up\nAnd when they were down they were down\nAnd when they were only half-way up\nThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566122822548_1129151457",
+      "id": "20190818-100702_581263131",
+      "dateCreated": "2019-08-18 10:07:02.548",
+      "dateStarted": "2019-08-18 10:07:37.956",
+      "dateFinished": "2019-08-18 10:07:38.040",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# to print only a certain line, supress output with -n and print line 3 with 3p\nsed -n 3p /data/dukeofyork.txt\n\n# print the last line of the file\nsed -n \u0027$p\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:10:29.390",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "He marched them up to the top of the hill\nThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566122857709_-2097609501",
+      "id": "20190818-100737_1001731012",
+      "dateCreated": "2019-08-18 10:07:37.709",
+      "dateStarted": "2019-08-18 10:10:29.539",
+      "dateFinished": "2019-08-18 10:10:29.580",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "#print a range of lines\nsed -n \u00271,3 p\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:11:26.478",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "The grand old Duke of York\nHe had ten thousand men\nHe marched them up to the top of the hill\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566122983985_-1625030367",
+      "id": "20190818-100943_868981728",
+      "dateCreated": "2019-08-18 10:09:43.985",
+      "dateStarted": "2019-08-18 10:11:26.665",
+      "dateFinished": "2019-08-18 10:11:26.702",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# print lines containing the specified regular expression\nsed -n \u0027/down/p\u0027 /data/dukeofyork.txt",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:13:16.382",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "And he marched them down again\nAnd when they were down they were down\nThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566123086478_153771109",
+      "id": "20190818-101126_733240908",
+      "dateCreated": "2019-08-18 10:11:26.478",
+      "dateStarted": "2019-08-18 10:13:16.571",
+      "dateFinished": "2019-08-18 10:13:16.631",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# this example starts printing when it finds } at the beginning of a line and stios when it finds a { at the beginning, thereby not printing function bodies\nsed -n \u0027/^}/,/^{/p\u0027 /data/array.c",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:19:15.774",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "}\n\n/* swap the contents of x and y */\nvoid intSwap(int *x, int *y)\n{\n}\n\n/* print the first n elements in the array a */\nvoid printArray(int a[], int n)\n{\n}\n\n/* get up to max integers from the user and store them in a; \n * terminator marks end of input */\nint getArray(int a[], int max, int terminator)\n{\n}\n\n/* reverse the order of the first n elements of a */\nvoid reverseArray(int a[], int n)\n{\n}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566123196382_725143403",
+      "id": "20190818-101316_372733380",
+      "dateCreated": "2019-08-18 10:13:16.382",
+      "dateStarted": "2019-08-18 10:19:15.885",
+      "dateFinished": "2019-08-18 10:19:15.946",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "# to get the inverse of a range selection use ~\nnl /data/dukeofyork.txt | sed -n \u00272,5!p\u0027",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:21:13.700",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "     1\tThe grand old Duke of York\n     6\tAnd when they were down they were down\n     7\tAnd when they were only half-way up\n     8\tThey were neither up nor down\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1566123537412_1109260981",
+      "id": "20190818-101857_724463534",
+      "dateCreated": "2019-08-18 10:18:57.412",
+      "dateStarted": "2019-08-18 10:21:13.886",
+      "dateFinished": "2019-08-18 10:21:13.968",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2019-08-18 10:22:08.543",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1566067865422_78942610",
-      "id": "20190817-185105_129236861",
-      "dateCreated": "2019-08-17 18:51:05.423",
+      "jobName": "paragraph_1566123715687_-856946542",
+      "id": "20190818-102155_801791230",
+      "dateCreated": "2019-08-18 10:21:55.688",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -785,6 +1110,7 @@
   "noteForms": {},
   "angularObjects": {
     "md:shared_process": [],
+    "python:shared_process": [],
     "sh:shared_process": [],
     "spark:shared_process": []
   },

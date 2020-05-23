@@ -72,7 +72,7 @@ git push -u origin master
 The following commands can be executed to create a SSH key that can be added to the GitHub web ui so that ssh can be used to connect instead of https. The very laste command is used to test if the configuration was successful.
 ```
 ssh-keygen -t rsa -b 4096 -C "hfoulds@gmail.com"
-cat /home/shambi/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 # add ssh key in github settings
 ssh -T git@github.com
 ```
